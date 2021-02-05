@@ -24,5 +24,5 @@ def oxford_comma(array)
   final_element = array.last
   array.pop
   initial_string = array.join(", ")
-  initial_string + ", and " + array.pop
+  initial_string + ", and " + final_element
 end
