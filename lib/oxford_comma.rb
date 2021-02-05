@@ -25,8 +25,10 @@ def oxford_comma(array)
     array[0]
   elsif array.size == 2 
     array.join(" and ")
-  final_element = array.last
-  array.pop
-  initial_string = array.join(", ")
-  initial_string + ", and " + final_element
+  else
+    final_element = array.last
+    array.pop
+    initial_string = array.join(", ")
+    initial_string + ", and " + final_element
+  end 
 end
