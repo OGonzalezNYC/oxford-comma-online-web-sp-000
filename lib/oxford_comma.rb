@@ -1,15 +1,15 @@
 require 'pry'
 
-def oxford_comma(array)
-  if array.length == 2
-    "#{array[0]} and #{array[1]}"
-  elsif array.length > 2
-    final_word = array.pop
-    array.join(", ") << ", and #{final_word}"
-  else 
-    array[0]
-  end
-end
+# def oxford_comma(array)
+#   if array.length == 2
+#     "#{array[0]} and #{array[1]}"
+#   elsif array.length > 2
+#     final_word = array.pop
+#     array.join(", ") << ", and #{final_word}"
+#   else 
+#     array[0]
+#   end
+# end
 
 # def oxford_comma(array)
 #   if array.length == 2
@@ -19,3 +19,4 @@ end
 #   end
 #   array.join(", ")    
 # end
+
