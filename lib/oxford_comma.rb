@@ -21,5 +21,7 @@ require 'pry'
 # end
 
 def oxford_comma(array)
+  final_element = array.last
   initial_string = array.join(", ")
+  
 end
